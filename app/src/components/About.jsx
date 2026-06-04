@@ -2,6 +2,7 @@ import profile from "../assets/profile.png";
 import { FaAward, FaBriefcase, FaFolderOpen } from "react-icons/fa";
 
 function About() {
+    
   return (
     <section id="about" className="py-28">
       <div className="max-w-6xl mx-auto px-6">
