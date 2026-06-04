@@ -128,6 +128,7 @@ function Skills() {
 
 function SkillBar({ name, value }) {
   return (
+    
     <div>
       <div className="flex justify-between">
         <span>{name}</span>
