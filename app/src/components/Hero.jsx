@@ -5,6 +5,7 @@ import {
 } from "react-icons/fa";
 
 function Hero() {
+    
   return (
     <section
       id="home"
