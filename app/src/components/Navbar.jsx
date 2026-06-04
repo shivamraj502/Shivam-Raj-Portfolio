@@ -5,6 +5,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
+    
     <header className="fixed top-0 left-0 w-full bg-white z-50 shadow-sm">
       <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
