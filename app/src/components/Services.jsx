@@ -46,6 +46,7 @@ function Services() {
 
 function ServiceCard({ icon, title }) {
   return (
+    
     <div className="bg-white rounded-3xl p-10 shadow-lg hover:-translate-y-3 transition duration-300">
 
       <div className="text-indigo-500 text-5xl mb-6">
