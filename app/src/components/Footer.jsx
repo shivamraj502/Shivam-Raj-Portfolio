@@ -1,43 +1,27 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaInstagram
-} from "react-icons/fa";
+import "./Footer.css";
 
-function Footer() {
-  return (
-    <footer className="bg-indigo-500 text-white py-16">
+function Footer(){
 
-      <div className="max-w-6xl mx-auto px-6 text-center">
+return(
 
-        <h2 className="text-3xl font-bold">
-          Shivam Raj
-        </h2>
+<footer className="footer">
 
-        <div className="flex justify-center gap-8 mt-8">
+<h2>Shivam Raj</h2>
 
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+<p>
+Aspiring Software Engineer • Full Stack Developer • Java Developer
+</p>
 
-        </div>
+<p>
 
-        <div className="flex justify-center gap-6 mt-8 text-2xl">
+© 2026 All Rights Reserved.
 
-          <FaLinkedin />
-          <FaGithub />
-          <FaInstagram />
+</p>
 
-        </div>
+</footer>
 
-        <p className="mt-8 text-sm">
-          © 2026 Shivam Raj. All rights reserved.
-        </p>
+);
 
-      </div>
-
-    </footer>
-  );
 }
 
 export default Footer;

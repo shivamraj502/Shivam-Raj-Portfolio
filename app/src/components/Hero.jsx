@@ -1,82 +1,92 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaInstagram
-} from "react-icons/fa";
+import "./Hero.css";
+import profile from "../assets/profile.jpg";
 
 function Hero() {
-    
   return (
-    <section
-      id="home"
-      className="min-h-screen flex items-center pt-24"
-    >
-      <div className="max-w-7xl mx-auto px-6 w-full">
+    <section className="hero" id="home">
 
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+      <div className="hero-left">
 
-          <div className="flex gap-10">
+        <h3>Hello, I'm</h3>
 
-            <div className="flex flex-col gap-8 text-2xl text-indigo-500">
+        <h1>Shivam Raj</h1>
 
-              <a href="#">
-                <FaLinkedin />
-              </a>
+        <h2>Full Stack Developer</h2>
 
-              <a href="#">
-                <FaInstagram />
-              </a>
+        <p>
+          Computer Science Engineering student passionate about
+          Full Stack Development, Java, AI and Software Engineering.
+          I enjoy building modern web applications and solving
+          real-world problems.
+        </p>
 
-              <a href="#">
-                <FaGithub />
-              </a>
+        <div className="hero-buttons">
 
-            </div>
+          <a
+            href="#contact"
+            className="btn"
+          >
+            Contact Me
+          </a>
 
-            <div>
+          <a
+            href="https://shivam-raj-portfolio.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-outline"
+          >
+            My Portfolio
+          </a>
 
-              <h1 className="text-6xl font-bold leading-tight">
-                Hi, I'm
-                <br />
-                Shivam
-              </h1>
+        </div>
 
-              <h3 className="text-2xl mt-4 font-semibold text-gray-700">
-                CSE Student | Full Stack Developer
-              </h3>
+        <div className="social-links">
 
-              <p className="mt-6 text-gray-500 max-w-lg leading-8">
-                Passionate Computer Science Engineering
-                student focused on building modern
-                web applications with React,
-                Tailwind CSS and JavaScript.
-              </p>
+          <a
+            href="https://github.com/shivamraj502"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
 
-              <button className="mt-8 bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-4 rounded-xl">
-                Contact Me →
-              </button>
+          <a
+            href="https://www.linkedin.com/in/shivam-raj-420275294/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
 
-            </div>
+          <a
+            href="https://leetcode.com/u/shivam_raj9798/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LeetCode
+          </a>
 
-          </div>
-
-          <div className="flex justify-center">
-
-            <div className="w-[350px] h-[350px] bg-indigo-500 rounded-[50%_40%_60%_30%] overflow-hidden">
-
-              <img
-                src="/profile.png"
-                alt=""
-                className="w-full h-full object-cover"
-              />
-
-            </div>
-
-          </div>
+          <a
+            href="https://x.com/shivamraj795609"
+            target="_blank"
+            rel="noreferrer"
+          >
+            X
+          </a>
 
         </div>
 
       </div>
+
+      <div className="hero-right">
+
+        <img
+          src={profile}
+          alt="Shivam Raj"
+        />
+
+      </div>
+
     </section>
   );
 }

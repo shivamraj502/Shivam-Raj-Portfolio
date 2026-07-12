@@ -1,76 +1,98 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import "./Projects.css";
 
 function Projects() {
-  const projects = [
-    {
-      title: "AI Surveillance System",
-      image:
-        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
-      desc: "AI-powered surveillance platform using YOLOv8 and Deep Learning."
-    },
-    {
-      title: "Portfolio Website",
-      image:
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      desc: "Modern responsive portfolio built with React and Tailwind."
-    },
-    {
-      title: "Weather App",
-      image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b",
-      desc: "Real-time weather forecasting using APIs."
-    }
-  ];
 
-  return (
-    <section id="projects" className="py-28 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+const projects=[
 
-        <h2 className="text-4xl font-bold text-center">
-          Projects
-        </h2>
+{
+title:"AI-Based Intelligent Surveillance System",
 
-        <p className="text-center text-gray-500 mt-2">
-          Most Recent Work
-        </p>
+description:
+"AI surveillance system using YOLOv8, Deep Learning and OpenCV for real-time object detection and monitoring.",
 
-        <Swiper
-          spaceBetween={30}
-          slidesPerView={1}
-          className="mt-16"
-        >
-          {projects.map((project, index) => (
-            <SwiperSlide key={index}>
-              <div className="grid lg:grid-cols-2 gap-12 items-center">
+github:"https://github.com/shivamraj502/Ai-based-smart-surveillance-system",
 
-                <img
-                  src={project.image}
-                  alt=""
-                  className="rounded-3xl h-[350px] object-cover w-full"
-                />
+demo:"#"
+},
 
-                <div>
-                  <h3 className="text-3xl font-semibold">
-                    {project.title}
-                  </h3>
+{
+title:"Task Manager App",
 
-                  <p className="text-gray-500 mt-4 leading-8">
-                    {project.desc}
-                  </p>
+description:
+"Full Stack Task Manager using React, Node.js, Express and MongoDB with CRUD operations and authentication.",
 
-                  <button className="mt-8 bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-4 rounded-xl">
-                    Demo →
-                  </button>
-                </div>
+github:"https://github.com/shivamraj502/Task-Manager",
 
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+demo:"#"
+},
 
-      </div>
-    </section>
-  );
+{
+title:"StoxP",
+
+description:
+"Stock Market application using React and APIs to display real-time stock market information.",
+
+github:"https://github.com/shivamraj502",
+
+demo:"#"
 }
+
+];
+
+return(
+
+<section className="projects" id="projects">
+
+<div className="section-title">
+
+<h2>Projects</h2>
+
+</div>
+
+<div className="project-container">
+
+{projects.map((project,index)=>(
+
+<div className="project-card" key={index}>
+
+<h3>{project.title}</h3>
+
+<p>{project.description}</p>
+
+<div className="project-buttons">
+
+<a
+href={project.github}
+target="_blank"
+rel="noreferrer"
+>
+
+GitHub
+
+</a>
+
+<a
+href={project.demo}
+target="_blank"
+rel="noreferrer"
+>
+
+Live Demo
+
+</a>
+
+</div>
+
+</div>
+
+))}
+
+</div>
+
+</section>
+
+);
+
+}
+
 export default Projects;

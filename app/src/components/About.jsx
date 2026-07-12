@@ -1,78 +1,43 @@
-import profile from "../assets/profile.png";
-import { FaAward, FaBriefcase, FaFolderOpen } from "react-icons/fa";
+import "./About.css";
 
 function About() {
-    
   return (
-    <section id="about" className="py-28">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="about" id="about">
 
-        <h2 className="text-4xl font-bold text-center">
-          About Me
-        </h2>
+      <div className="section-title">
+        <h2>About Me</h2>
+      </div>
 
-        <p className="text-center text-gray-500 mt-2">
-          My Introduction
+      <div className="about-content">
+
+        <p>
+          Hello! I'm <span>Shivam Raj</span>, a Computer Science Engineering
+          student at SJB Institute of Technology, Bengaluru.
         </p>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center mt-16">
+        <p>
+          I enjoy building modern web applications using Java,
+          React, Node.js and MongoDB.
+        </p>
 
-          <div className="flex justify-center">
-            <img
-              src={profile}
-              alt=""
-              className="w-[350px] rounded-3xl shadow-xl"
-            />
-          </div>
+        <p>
+          I am currently learning Full Stack Development,
+          Data Structures & Algorithms, Database Management Systems,
+          Cloud Computing and DevOps.
+        </p>
 
-          <div>
+        <p>
+          I enjoy solving real-world problems and creating projects
+          that improve people's lives.
+        </p>
 
-            <div className="grid md:grid-cols-3 gap-4">
-
-              <div className="bg-white shadow-md rounded-2xl p-5 text-center">
-                <FaAward className="mx-auto text-2xl mb-2 text-indigo-500" />
-                <h3 className="font-semibold">Experience</h3>
-                <p className="text-sm text-gray-500">
-                  Fresher
-                </p>
-              </div>
-
-              <div className="bg-white shadow-md rounded-2xl p-5 text-center">
-                <FaBriefcase className="mx-auto text-2xl mb-2 text-indigo-500" />
-                <h3 className="font-semibold">Internships</h3>
-                <p className="text-sm text-gray-500">
-                  2+ Completed
-                </p>
-              </div>
-
-              <div className="bg-white shadow-md rounded-2xl p-5 text-center">
-                <FaFolderOpen className="mx-auto text-2xl mb-2 text-indigo-500" />
-                <h3 className="font-semibold">Projects</h3>
-                <p className="text-sm text-gray-500">
-                  10+ Completed
-                </p>
-              </div>
-
-            </div>
-
-            <p className="mt-8 text-gray-600 leading-8">
-              I am a Computer Science Engineering student
-              passionate about Full Stack Development,
-              React, JavaScript, Tailwind CSS and building
-              modern web applications. I enjoy solving
-              real-world problems and continuously learning
-              new technologies.
-            </p>
-
-            <button className="mt-8 bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-4 rounded-xl">
-              Download CV
-            </button>
-
-          </div>
-
-        </div>
+        <p>
+          I am looking for Software Development Internship
+          opportunities where I can learn, contribute and grow.
+        </p>
 
       </div>
+
     </section>
   );
 }

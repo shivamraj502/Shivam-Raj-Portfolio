@@ -1,91 +1,88 @@
-import {
-  FaPhoneAlt,
-  FaEnvelope,
-  FaMapMarkerAlt
-} from "react-icons/fa";
+import "./Contact.css";
 
 function Contact() {
   return (
-    <section
-      id="contact"
-      className="py-28 bg-white"
-    >
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="contact" id="contact">
 
-        <h2 className="text-4xl font-bold text-center">
-          Contact Me
-        </h2>
+      <div className="section-title">
+        <h2>Contact Me</h2>
+      </div>
 
-        <p className="text-center text-gray-500 mt-2">
-          Get In Touch
-        </p>
+      <div className="contact-container">
 
-        <div className="grid lg:grid-cols-2 gap-16 mt-16">
+        <div className="contact-card">
 
-          <div className="space-y-6">
+          <h3>Let's Connect 👋</h3>
 
-            <div className="flex items-center gap-4 bg-gray-50 p-5 rounded-2xl">
-              <FaPhoneAlt className="text-indigo-500" />
-              <div>
-                <h3>Call Me</h3>
-                <p className="text-gray-500">
-                  +91 9876543210
-                </p>
-              </div>
-            </div>
+          <p>
+            I am always open to internship opportunities,
+            collaborations, and software development projects.
+          </p>
 
-            <div className="flex items-center gap-4 bg-gray-50 p-5 rounded-2xl">
-              <FaEnvelope className="text-indigo-500" />
-              <div>
-                <h3>Email</h3>
-                <p className="text-gray-500">
-                  shivam@email.com
-                </p>
-              </div>
-            </div>
+          <div className="contact-info">
 
-            <div className="flex items-center gap-4 bg-gray-50 p-5 rounded-2xl">
-              <FaMapMarkerAlt className="text-indigo-500" />
-              <div>
-                <h3>Location</h3>
-                <p className="text-gray-500">
-                  Bengaluru, India
-                </p>
-              </div>
-            </div>
+            <p>
+              📧
+              <a href="mailto:shivamraj81020051@gmail.com">
+                shivamraj81020051@gmail.com
+              </a>
+            </p>
+
+            <p>
+              📱
+              <a href="tel:+919798021232">
+                +91 9798021232
+              </a>
+            </p>
+
+            <p>
+              📍 Bengaluru, India
+            </p>
 
           </div>
 
-          <form className="space-y-6">
+          <div className="social-buttons">
 
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full border rounded-xl p-4"
-            />
+            <a
+              href="https://github.com/shivamraj502"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
 
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full border rounded-xl p-4"
-            />
+            <a
+              href="https://www.linkedin.com/in/shivam-raj-420275294/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
 
-            <textarea
-              rows="6"
-              placeholder="Your Message"
-              className="w-full border rounded-xl p-4"
-            ></textarea>
+            <a
+              href="https://leetcode.com/u/shivam_raj9798/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LeetCode
+            </a>
 
-            <button className="bg-indigo-500 hover:bg-indigo-600 text-white px-8 py-4 rounded-xl">
-              Send Message
-            </button>
+            <a
+              href="https://x.com/shivamraj795609"
+              target="_blank"
+              rel="noreferrer"
+            >
+              X
+            </a>
 
-          </form>
+          </div>
 
         </div>
 
       </div>
+
     </section>
   );
 }
+
 export default Contact;
