@@ -3,7 +3,6 @@ import "./Skills.css";
 function Skills() {
 
 const skills = [
-
 "Java",
 "C",
 "HTML",
@@ -23,7 +22,6 @@ const skills = [
 "OpenCV",
 "YOLOv8",
 "Deep Learning"
-
 ];
 
 return (
