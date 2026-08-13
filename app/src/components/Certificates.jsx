@@ -50,7 +50,7 @@ function Certificates() {
             <p>{item.issuer}</p>
             <span>{item.year}</span>
             {/* <p><ul><b>{item.click}</b></ul></p> */}
-            <p><b style={{ textDecoration: "underline" }}>{item.click}</b></p>
+            <p><b style={{ textDecoration: "underline", color: "blue" }}>{item.click}</b></p>
           </a>
 
         ))}
