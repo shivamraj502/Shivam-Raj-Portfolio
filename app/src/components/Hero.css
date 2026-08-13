@@ -1,3 +1,7 @@
+.hero, .hero * {
+  box-sizing: border-box;
+}
+
 .hero{
 
 display:flex;
@@ -285,10 +289,16 @@ margin-bottom:40px;
     margin-bottom:18px;
 }
 
-.hero-left p{
+/* .hero-left p{
     font-size:15px;
     line-height:1.6;
     margin-bottom:25px;
+} */
+
+.hero-left p {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .hero-buttons{
