@@ -7,6 +7,7 @@ function Certificates() {
       title: "Responsible & Safe AI Systems",
       issuer: "NPTEL",
       year: "2025",
+      click: "Click to view",
       link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/106/noc25-cs118/Course/NPTEL25CS118S25260235910856134.pdf"
     },
 
@@ -14,6 +15,7 @@ function Certificates() {
       title: "System Design for Sustainability",
       issuer: "NPTEL",
       year: "2025",
+      click: "Click to view",
       link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/107/noc25-de21/Course/NPTEL25DE21S95260233210856134.pdf"
     },
 
@@ -21,6 +23,7 @@ function Certificates() {
       title: "Cognizant Technoverse Hackathon 2026",
       issuer: "Cognizant",
       year: "2026",
+      click: "Click to view",
       link: "https://cdn2.joinsuperset.com/public/ej-certificates/ce18f206-58f9-11f1-850f-06cf9393edf9.html"
     }
   ];
@@ -46,6 +49,7 @@ function Certificates() {
             <h3>{item.title}</h3>
             <p>{item.issuer}</p>
             <span>{item.year}</span>
+            <span>{item.click}</span>
           </a>
 
         ))}
