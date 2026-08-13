@@ -49,7 +49,7 @@ function Certificates() {
             <h3>{item.title}</h3>
             <p>{item.issuer}</p>
             <span>{item.year}</span>
-            <p><b>{item.click}</b></p>
+            <p><ul><b>{item.click}</b></ul></p>
           </a>
 
         ))}
