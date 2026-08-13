@@ -200,7 +200,7 @@ transform:translateY(0);
 
 }
 
-@media(max-width:900px){
+/* @media(max-width:900px){
 
 .hero{
 
@@ -210,7 +210,15 @@ text-align:center;
 
 padding-top:150px;
 
-}
+} */
+
+@media(max-width:900px) {
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 100px;        /* was 150px — reduced since navbar is now a single-row bar */
+    }
 
 .hero-left h1{
 
@@ -254,6 +262,58 @@ height:260px;
 
 margin-bottom:40px;
 
+}
+
+} 
+
+@media(max-width:480px){
+
+.hero{
+    padding:90px 6% 50px;
+}
+
+.hero-left h3{
+    font-size:20px;
+}
+
+.hero-left h1{
+    font-size:32px;
+}
+
+.hero-left h2{
+    font-size:20px;
+    margin-bottom:18px;
+}
+
+.hero-left p{
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    width:100%;
+    gap:14px;
+}
+
+.btn,
+.btn-outline{
+    width:100%;
+    text-align:center;
+    padding:12px 20px;
+    box-sizing:border-box;
+}
+
+.social-links{
+    gap:18px;
+    font-size:14px;
+}
+
+.hero-right img{
+    width:180px;
+    height:180px;
+    border-width:4px;
 }
 
 }
