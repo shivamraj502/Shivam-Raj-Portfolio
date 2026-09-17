@@ -5,14 +5,14 @@ function Projects() {
 const projects=[
 
 {
-title:"AI-Based Intelligent Surveillance System",
+title:"Personal Portfolio Website",
 
 description:
-"AI surveillance system using YOLOv8, Deep Learning and OpenCV for real-time object detection and monitoring.",
+"Engineered a responsive personal portfolio website to showcase projects, technical skills, and achievements through a modern and user-friendly interface. ",
 
-github:"https://github.com/shivamraj502/Ai-based-smart-surveillance-system",
+github:"https://github.com/shivamraj502/portfolio",
 
-demo:"#"
+demo:"https://shivam-raj-portfolio.vercel.app/"
 },
 
 {
@@ -27,12 +27,12 @@ demo:"https://notes-fd.vercel.app/"
 },
 
 {
-title:"StoxP",
+title:"AI-Based Intelligent Surveillance System",
 
 description:
-"Stock Market application using React and APIs to display real-time stock market information.",
+"AI surveillance system using YOLOv8, Deep Learning and OpenCV for real-time object detection and monitoring.",
 
-github:"https://github.com/shivamraj502",
+github:"https://github.com/shivamraj502/Ai-based-smart-surveillance-system",
 
 demo:"#"
 }
