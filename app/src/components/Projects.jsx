@@ -23,7 +23,7 @@ description:
 
 github:"https://github.com/shivamraj502/Task-Manager",
 
-demo:"#"
+demo:"https://notes-fd.vercel.app/"
 },
 
 {
