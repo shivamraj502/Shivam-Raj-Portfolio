@@ -10,7 +10,7 @@ function Certificates() {
       click: "Click to view",
       link: "https://cdn2.joinsuperset.com/public/ej-certificates/ce18f206-58f9-11f1-850f-06cf9393edf9.html"
     },
-    
+
     {
       title: "Responsible & Safe AI Systems",
       issuer: "NPTEL",
@@ -28,27 +28,27 @@ function Certificates() {
     },
 
     {
-      title: "System Design for Sustainability",
+      title: "Business to Business Marketing (B2B)",
       issuer: "NPTEL",
-      year: "2025",
+      year: "2026",
       click: "Click to view",
-      link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/107/noc25-de21/Course/NPTEL25DE21S95260233210856134.pdf"
+      link: "https://beta.nptel.ac.in/verify/NOC-0CQR-QKPS-XAECY"
     },
 
     {
-      title: "System Design for Sustainability",
+      title: "Introduction to Industry 4.0 and Industrial Internet of Things",
       issuer: "NPTEL",
-      year: "2025",
+      year: "2026",
       click: "Click to view",
-      link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/107/noc25-de21/Course/NPTEL25DE21S95260233210856134.pdf"
+      link: "https://beta.nptel.ac.in/verify/NOC-Y1FS-RSNS-JCRHF"
     },
 
     {
-      title: "System Design for Sustainability",
+      title: "Understanding Incubation and Entrepreneurship",
       issuer: "NPTEL",
-      year: "2025",
+      year: "2026",
       click: "Click to view",
-      link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/107/noc25-de21/Course/NPTEL25DE21S95260233210856134.pdf"
+      link: "https://beta.nptel.ac.in/verify/NOC-4GWC-RNFK-E8N3Z"
     },
   ];
 
