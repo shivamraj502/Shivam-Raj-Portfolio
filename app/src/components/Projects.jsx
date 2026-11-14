@@ -27,14 +27,14 @@ demo:"https://notes-fd.vercel.app/"
 },
 
 {
-title:"AI-Based Intelligent Surveillance System",
+title:"Sikhaba : Live Language Learning Platform ",
 
 description:
-"AI surveillance system using YOLOv8, Deep Learning and OpenCV for real-time object detection and monitoring.",
+"AI-powered language learning platform with real-time interaction and personalized learning paths.",
 
-github:"https://github.com/shivamraj502/Ai-based-smart-surveillance-system",
+github:"https://github.com/shivamraj502/Sikhaba",
 
-demo:"#"
+demo:"https://sikhaba-nwhe.vercel.app"
 }
 
 ];
