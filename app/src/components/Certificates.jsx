@@ -3,6 +3,14 @@ import "./Certificates.css";
 function Certificates() {
 
   const certificates = [
+     {
+      title: "Cognizant Technoverse Hackathon 2026",
+      issuer: "Cognizant",
+      year: "2026",
+      click: "Click to view",
+      link: "https://cdn2.joinsuperset.com/public/ej-certificates/ce18f206-58f9-11f1-850f-06cf9393edf9.html"
+    },
+    
     {
       title: "Responsible & Safe AI Systems",
       issuer: "NPTEL",
@@ -20,12 +28,28 @@ function Certificates() {
     },
 
     {
-      title: "Cognizant Technoverse Hackathon 2026",
-      issuer: "Cognizant",
-      year: "2026",
+      title: "System Design for Sustainability",
+      issuer: "NPTEL",
+      year: "2025",
       click: "Click to view",
-      link: "https://cdn2.joinsuperset.com/public/ej-certificates/ce18f206-58f9-11f1-850f-06cf9393edf9.html"
-    }
+      link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/107/noc25-de21/Course/NPTEL25DE21S95260233210856134.pdf"
+    },
+
+    {
+      title: "System Design for Sustainability",
+      issuer: "NPTEL",
+      year: "2025",
+      click: "Click to view",
+      link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/107/noc25-de21/Course/NPTEL25DE21S95260233210856134.pdf"
+    },
+
+    {
+      title: "System Design for Sustainability",
+      issuer: "NPTEL",
+      year: "2025",
+      click: "Click to view",
+      link: "https://archive.nptel.ac.in/content/noc/NOC25/SEM2/Ecertificates/107/noc25-de21/Course/NPTEL25DE21S95260233210856134.pdf"
+    },
   ];
 
   return (

@@ -1,49 +1,33 @@
 import "./Achievements.css";
 
-function Achievements(){
+function Achievements() {
+  const achievements = [
+    "Participant - Cognizant Technoverse Hackathon 2026",
 
-const achievements=[
+    "NPTEL Certified in Responsible & Safe AI Systems",
 
-"Participant - Cognizant Technoverse Hackathon 2026",
+    "NPTEL Certified in System Design for Sustainability",
 
-"NPTEL Certified in Responsible & Safe AI Systems",
+    "Built Multiple Full Stack Projects",
 
-"NPTEL Certified in System Design for Sustainability",
+    "Learning DSA and System Design",
+  ];
 
-"Built Multiple Full Stack Projects",
+  return (
+    <section className="achievements" id="achievements">
+      <div className="section-title">
+        <h2>Achievements</h2>
+      </div>
 
-"Learning DSA and System Design"
-
-];
-
-return(
-
-<section className="achievements" id="achievements">
-
-<div className="section-title">
-
-<h2>Achievements</h2>
-
-</div>
-
-<div className="achievement-list">
-
-{achievements.map((item,index)=>(
-
-<div className="achievement-card" key={index}>
-
-🏆 {item}
-
-</div>
-
-))}
-
-</div>
-
-</section>
-
-);
-
+      <div className="achievement-list">
+        {achievements.map((item, index) => (
+          <div className="achievement-card" key={index}>
+            🏆 {item}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }
 
 export default Achievements;
