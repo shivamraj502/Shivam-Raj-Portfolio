@@ -10,7 +10,7 @@ function Achievements() {
 
     "Built Multiple Full Stack Projects",
 
-    "Learning DSA and System Design",
+    "Learning DSA, DBMS and System Design",
   ];
 
   return (
