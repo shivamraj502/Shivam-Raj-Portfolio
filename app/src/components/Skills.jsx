@@ -1,34 +1,6 @@
 import "./Skills.css";
 
 function Skills() {
-  // const skills = [
-  //   "Java",
-  //   "JavaScript",
-  //   "HTML5",
-  //   "CSS3",
-  //   "React.js",
-  //   "Node.js",
-  //   "Express.js",
-  //   "RESTful APIs",
-  //   "JWT Authentication",
-  //   "CRUD Operations",
-  //   "MVC Architecture",
-  //   "MySQL",
-  //   "MongoDB",
-  //   "Git",
-  //   "GitHub",
-  //   "Postman",
-  //   "VS Code",
-  //   "IntelliJ IDEA",
-  //   "Vercel",
-  //   "Render",
-  //   "Socket.io",
-  //   "WebRTC / LiveKit",
-  //   "Aiven",
-  //   "DBMS",
-  //   "DSA",
-  //   "OOPs"
-  // ];
 
   const skills = {
     languages: ["Java", "JavaScript"],
